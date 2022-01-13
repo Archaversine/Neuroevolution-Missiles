@@ -13,7 +13,7 @@ let explosions = [];
 function setup()
 {
     //createCanvas(1000, 800);
-    createCanvas(displayWidth - 20, displayHeight - 210);
+    createCanvas(displayWidth, displayHeight);
 
     population = new Population();
     target = createVector(width / 2, 50);
